@@ -1,3 +1,22 @@
+
+/*PARA QUE EL ELEMENTO ESTE EN UN BLOQUE
+razonSocial
+{
+    display: block;
+}
+infoFactura
+{
+    display: block;
+}
+*/
+
+
+/*PONER EN BLOQUE TODO EL CONTENIDO*/
+/*APLICAR OTROS ESTILOS DE VIÑETAS*/
+/*APLICAR ESTILOS DE TABLAS*/
+
+
+
 razonSocial
 {
  
@@ -9,6 +28,7 @@ razonSocial
     
 }
 
+/*APLICAR OTROS ESTILOS DE VIÑETAS*/
 nombreComercial,ruc,fechaEmision
 {
     display: list-item;
@@ -20,20 +40,27 @@ nombre,apellido,telefono,direccion
     display: block
 }
 
+/*APLICAR ESTILOS DE TABLAS*/
 
 detalleConsumo
 {
     display: table;
     border-spacing: 10px;
-    border: blue 1px solid;    
+    border: blue 1px solid;
+    
+    
     
 }
+
+/*APLICAR OTROS ESTILOS DE VIÑETAS*/
 
 [class=o],cantidad,precio
 {
     border: black 1px solid;
     display: table-cell;
 }
+
+/*APLICAR OTROS ESTILOS POR CLASE E ID*/
 
 [class=n]{
     display: list-item;
