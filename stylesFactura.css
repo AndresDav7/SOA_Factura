@@ -1,0 +1,54 @@
+razonSocial
+{
+ 
+    display: block;
+    border: 1px solid brown; 
+    margin:10px; 
+    padding:10px; 
+    background-color:whitesmoke;
+    
+}
+
+nombreComercial,ruc,fechaEmision
+{
+    display: list-item;
+    margin-left:50px;
+}
+
+nombre,apellido,telefono,direccion
+{
+    display: block
+}
+
+
+detalleConsumo
+{
+    display: table;
+    border-spacing: 10px;
+    border: blue 1px solid;    
+    
+}
+
+[class=o],cantidad,precio
+{
+    border: black 1px solid;
+    display: table-cell;
+}
+
+[class=n]{
+    display: list-item;
+    margin-left:50px;
+}
+
+
+#apellido
+{
+    color: aquamarine;
+    font-size: 50px;
+}
+
+[class=o]
+{
+    color: brown;
+    font-size: 30px
+}
