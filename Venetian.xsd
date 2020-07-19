@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+  <xs:element name="estudiantes" type="estudiantesType"/>
+  <xs:complexType name="estudiantesType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="identificacion"/>
+      <xs:element type="xs:string" name="primer_nombre"/>
+      <xs:element type="xs:string" name="segundo_nombre"/>
+      <xs:element type="xs:string" name="primer_apellido"/>
+      <xs:element type="xs:string" name="segundo_apellido"/>
+      <xs:element type="xs:string" name="genero"/>
+      <xs:element type="xs:string" name="telefono"/>
+      <xs:element type="xs:string" name="direccion"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
+
